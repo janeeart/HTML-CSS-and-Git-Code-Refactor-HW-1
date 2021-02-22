@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* removed class attributes from certain elements to reduce redundancy and improve code readability */
+
 body {
     background-color: #d9dcd6;
 }
@@ -23,6 +25,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* removed all div tags and replaced with more specifc and concise tags */
 
 header nav {
     padding-top: 15px;
